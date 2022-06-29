@@ -3,7 +3,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 100 == number)
 {
-    Console.WriteLine("Нет третьего числа");
+    Console.WriteLine("Нет третьей цифры");
 }
 else
 {
