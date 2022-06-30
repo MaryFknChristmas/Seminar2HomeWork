@@ -1,37 +1,41 @@
 ﻿Console.WriteLine("Введите цифру");
 int number = Convert.ToInt32(Console.ReadLine());
+Task15(number);
 
-if (number == 1)
+void Task15(int currentNumber)
 {
-    Console.WriteLine("Нет, это Понедельник!");
-}
+    if (currentNumber == 1)
+        {
+            Console.WriteLine("Нет, это Понедельник!");
+        }
 
-if (number == 2)
-{
-    Console.WriteLine("Нет, это Вторник!");
-}
+    if (currentNumber == 2)
+        {
+            Console.WriteLine("Нет, это Вторник!");
+        }
 
-if (number == 3)
-{
-    Console.WriteLine("Нет, это Среда!");
-}
+    if (currentNumber == 3)
+        {
+            Console.WriteLine("Нет, это Среда!");
+        }
 
-if (number == 4)
-{
-    Console.WriteLine("Нет, это Четверг!");
-}
+    if (currentNumber == 4)
+        {
+            Console.WriteLine("Нет, это Четверг!");
+        }
 
-if (number == 5)
-{
-    Console.WriteLine("Нет, это Пятница!");
-}
+    if (currentNumber == 5)
+        {
+            Console.WriteLine("Нет, это Пятница!");
+        }
 
-if (number == 6)
-{
-    Console.WriteLine("Да, это Суббота!");
-}
+    if (currentNumber == 6)
+        {
+            Console.WriteLine("Да, это Суббота!");
+        }
 
-if (number == 7)
-{
-    Console.WriteLine("Да, это Воскресенье!");
+    if (currentNumber == 7)
+        {
+            Console.WriteLine("Да, это Воскресенье!");
+        }
 }
